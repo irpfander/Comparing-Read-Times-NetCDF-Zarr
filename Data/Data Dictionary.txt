@@ -1,0 +1,14 @@
+The Data folder contains all files used to run benchmarking tests. Below is a description of each file. 
+
+sresa1b_ncar_ccsm3-example.nc : example netCDF-3 as downloaded from Unidata's website
+ccsm3_netcdf-4-classic.nc : netCDF-4 Classic file
+ccsm3_netcdf-4-18.nc : netCDF-4 file with HDF5 version 1.8, one chunk per variable
+ccsm3_netcdf-4.nc : netCDF-4 file with HDF5 version 1.10, one chunk per variable
+ccsm3_netcdf-4-110-64C.nc : netCDF-4 file with HDF5 version 1.10, chunk size 64x64 across lat/lon
+ccsm3_netcdf-4-110-4C.nc : netCDF-4 file with HDF5 version 1.10, chunk size 4x4 across lat/lon
+ccsm3_netcdf-4-110-16C.nc : netCDF-4 file with HDF5 version 1.10, chunk size 16x16 across lat/lon
+
+ccsm3_store.zarr : Zarr store created from the original netCDF-3 file, one chunk per variable
+ccsm3_store_16C.zarr.zip : Zarr store, chunk size 16x16 across lat/lon
+ccsm3_store_4C.zarr.zip : Zarr store, chunk size 4x4 across lat/lon
+ccsm3_store_64C.zarr.zip : Zarr store, chunk size 64x64 across lat/lon
