@@ -9,4 +9,4 @@ The following chunk sizes applied to lat/lon were compared:
 * 16 x 16
 * 4 x 4
 
-Run times are recorded in seconds using `timeit` with the average taken of 100 excecutions.
+Run times are recorded in milliseconds using `timeit` with the average taken of 100 excecutions.
