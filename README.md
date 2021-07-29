@@ -10,3 +10,13 @@ The following chunk sizes applied to latitude and longitude (lat/lon) were compa
 * 4 x 4
 
 Run times are recorded in milliseconds using `timeit` with the average taken of 100 excecutions.
+
+Dependencies & Versions
+  - python=3
+  - netcdf4=1.5.7
+  - hdf5=1.8.20
+  - jupyter=6.1.3
+  - zarr=2.8.3
+  - xarray = 0.11.3
+  - matplotlib=3.4.2
+
